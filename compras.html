@@ -1,0 +1,132 @@
+<!--Aluno Sebastião Alves de Almeida-->
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Compras</title>
+        <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+
+    </head>
+    <body>
+       <h4>Compras</h4>
+        <section>
+            <form>
+                <fieldset class="fsDados">
+                    <legend>Dados Pessoais</legend>
+                    <div class="divlinha">
+                        <p><label for="cNome" class="colPri">Nome:</label><input type="text" name="tNome" id="cNome" class="inpGrande" placeholder="Nome completo"  required></p>
+                        </p><label for="cEnd" class="colPri">Endereço:</label><textarea name="tEnd" id="cEnd" rows="2" cols="0" class="inpGrande" placeholder="Endereço Completo"  required></textarea></p>
+                    </div>
+                    
+                        
+                    <div class="meiaLinEsq">    
+                        <p><label for="cCpf" class="colPri">CPF:</label><input type="text" name="tCpf" id="cCpf" class="inpTelef" placeholder="Só números"  required></p>
+                        
+                        <p><label for="cTel" class="colPri">Telefone:</label><input type="text" name="tTel" id="cTel" class="inpTelef" placeholder="Só números"></p>
+                        <p><label for="cCel" class="colPri">Celular:</label><input type="text" name="tCel" id="cCel" class="inpTelef" placeholder="Só números"></p>
+                    </div>
+                    <br>
+                    <fieldset class="fsDir">
+                        <legend>Nascimento</legend>
+                        <div class="meiaLinDir">
+                            
+                            <input type="number" class="numDD"> /
+                            <input type="number" class="numDD"> /
+                            <input type="number" class="numQD" value="1980">
+                        </div>
+                            
+                    </fieldset>
+                    <br><br><br><br>
+                    <fieldset class="fsDir">
+                        <legend>Genero</legend>
+                        <div>
+                            
+                            <label for="cMas">Masc</label><input type="radio" name="tSexo" id="cMasc" checked>
+                            <label for="cFem">Fem</label><input type="radio" name="tSexo" id="cFem">
+                            <label for="cOut">Outro</label><input type="radio" name="tSexo" id="cOut">
+                        </div>
+                            
+                    </fieldset>
+                    
+                    
+    
+                </fieldset>
+
+                <!--SEGUNDO FIELDSET-->
+
+                <fieldset class="fsDados">
+                    <legend>Seleção de Produtos e Pagamentos</legend>
+                    <div class="meiaLinEsq">
+                        <label for="cProd"    class="colPri">Produtos:</label>
+                        <select name="tProd" id="cProd" >
+                            <option>----</option>
+                            <optgroup label="Anime"  >
+                                <option>Death Note - DVD - Completo</option>
+                                <option>Naruto Shippuden T01 Box 01</option>
+                                <option>Naruto Shippuden T01 box 02</option>
+                            </optgroup>
+                            <optgroup label="Mangá">
+                                <option>Naruto Gold</option>
+                                <option>Attack on Titan - Vol 1-4</option>
+                                <option>Attack on Titan - Vol 5-8</option>
+                                <option>Naruto Box P01 Vol 1-27</option>
+                            </optgroup>
+                            <optgroup label="Action Figure">
+                                <option> Naruto Shippuden - PVC</option>
+                                <option>Ryuk - Death Note - PVC</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+                        <fieldset class="fsEsq">
+                            <legend>Dados do Cartão</legend>
+                            <fieldset>
+                                <legend>Bandeira</legend>
+                                <div class="meiaLinEsq">
+                                    <label for="cVisa">Visa</label><input type="radio" name="tCart" id="cVisa" checked>
+                                    <label for="cMaster">Master</label><input type="radio" name="tCart" id="cMaster">
+                                    <label for="cAmex">Outro</label><input type="radio" name="tCart" id="cAmex">
+    
+                                </div>
+                            </fieldset>
+                            <br>
+                            <label for="cData" class="colPri">Validade:</label>
+                            <input type="number" class="numDD"> /
+                            <input type="number" class="numQD" value="2021">
+                            <br><br>
+                            <label for="cNum" class="colPri"> Número:</label>
+                            <input type="text" class="inpNCC" name="tNum" id="cNum" placeholder="O mesmo do cartão"  required>
+    
+                        </fieldset>
+    
+                    </div>
+                    <br>
+                    <div class="meiaLinEsq">
+                        <input type="submit" name="Enviar" value="Comprar">
+                    </div>
+                    <br> <br> <br> <br>
+                    
+                    <div class="meiaLinDir">
+                        <textarea name="tQuad" id="cQuad" rows="10" cols="20" class="elemDir" readonly></textarea>
+                        
+                       
+                    </div>
+                    
+                    <div class="meiaLinDir">
+                        <label for="cValor" class="colPri"> Valor:R$</label>
+                        <input type="text" class="inpNCC" name="tValor" id="cValor" readonly>
+    
+                    </div>
+                   
+                </fieldset>
+                <div class="botoes">
+                    <input type="submit" name="tEnviar" value="Enviar">
+                    <input type="reset" name="tLimpar" value="Limpar">
+                </div>
+    
+            </form>
+            
+                
+        </section>
+
+    </body>
+</html>

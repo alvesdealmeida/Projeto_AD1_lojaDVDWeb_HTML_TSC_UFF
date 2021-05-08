@@ -1,0 +1,36 @@
+Curso de Tecnologia em Sistema de Computação
+Disciplina : Criação de Página de Web
+AD I - 1° Semestre de 2020
+aluno: Sebastião Alves de Almeida
+++++++++++++++++++++++++++++++++++++++++++++++
+LojaDVDWeb
+
+Pastas:
+-CSS
+-Imagens
+-JS
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Páginas:
+
+-Index.html  (figura 1)
+-OtakuOnTitan.html  (figura 2)
+-destaques.html (figura 3)
+-catalogo.html (figura 4)
+-compras.html (figura 6)
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Sistema Operacional : windows X - 64 bits
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Editor de Texto : Visual Studio Code
+Version: 1.43.0 (user setup)
+Commit: 78a4c91400152c0f27ba4d363eb56d2835f9903a
+Date: 2020-03-09T19:47:57.235Z
+Electron: 7.1.11
+Chrome: 78.0.3904.130
+Node.js: 12.8.1
+V8: 7.8.279.23-electron.0
+OS: Windows_NT x64 10.0.18362

@@ -1,0 +1,72 @@
+header {display: block; padding-bottom: 0px; margin-bottom: 0px; text-align: center;}
+
+nav    {display: block; border-bottom: solid 2px; padding-bottom: 4px; margin: 2px; 
+text-align: center;font-size: 18px; font-family: sans-serif;}
+
+section {display: block;text-align: center;}
+footer {clear: both;}
+
+/* Quadro I - Eltilo das divisões padrão da página */
+
+body {background: #ffffff; color: #bb0d0d; font-size: 16px; font-family: sans-serif;}
+A:link{color: #ff0000; text-decoration: none;}
+A:visited {color: #ee0000; text-decoration: none;}
+
+.ender {text-align: center; font-size: 14px; border-top: solid 2px; padding-top: 10px;}
+.imgLogo {margin-bottom: 4px; padding-bottom: 4px;}
+.apres {text-align: center; font-size: 18px; margin-bottom: 4px; padding-bottom: 4px; ;}
+
+/* Estilos dentro de <nav> */
+
+.menu{margin: 20px ;}
+.botao {margin-top: 0px;margin-bottom: 0px; margin-left: 4px; margin-right: 4px; 
+padding-top: 0px; padding-bottom: 0px; padding-left: 4px 100px;padding-right: 4px 100px; 
+display: inline-block;}
+
+/* Página do Link Destaques */
+
+.lisDestaq {color: #2255aa; list-style-type: katakana;}
+.itemDestaq {width: 430px; height: 120px; padding: 10px; }
+.itemDesProd {list-style-type: square;}
+.imgDestaq {float: right;}
+.precoVelho {text-decoration: line-through;}
+.preco {font-style: bold; color: #ff0000;}
+
+/* Classes de Estilo da Página Catalogo */
+
+.tabInfo{border-collapse: collapse; background-color: #ffffcc; color: #2255aa; margin-top: 6px; font-family: arial;}
+td , th {border: solid 2px ;border-color: #000000; padding: 6px 12px 6px 12px; }
+.linTH {color: #ffffff; background-color: #0077bb; vertical-align: middle; text-align: center;}
+.colTH {color: #005599; background-color: #ffcc77; text-align: left;}
+.precoII {color: #cc0000; font-style: bold; vertical-align: middle;}
+
+/* LISTA DE PRODUTOS */
+/* ESTILO DOS FIELDSETS */
+
+fieldset {color: #2255aa; background-color: #ffffcc; margin: 20px 10px 0px 10px;}
+.fsDados {width: 510px;}
+.fsEsq {float: left; margin: 0px 0px 6px 0px;}
+.fsDir {float: right; width: 220px; margin: 0px 0px 6px 0px;}
+
+/* POSICIONAMENTO E TAMANHO DE ELEMENTOS DO FORMULARIO */
+
+.meiaLinDir {width: 220px; float: right; margin-bottom: 6px; }
+.meiaLinEsq {width: 220px; float: left; margin-top: 6px; margin-bottom: 18px;}
+.divLinha {width: 490px; margin-bottom: 18px;}
+.colPri {float: left;display: block; width: 84px;}
+.elemDir {float: right; display: block;}
+.botoes {text-align: left; margin: 12px 10px 12px 10px;}
+
+/*TAMANHO DE ELEMENTO DE ENTRADA DE VALORES */
+
+.inpGrande {width: 390px;}
+.inpMedio {width: 120px;}
+.inpTelef {width: 90px;}
+.numDD {width: 40px;}
+.numQD {width: 60px;}
+
+/* IDENTIFICADOR DO CAMPO NUMERO CARTÃO CRÉDITO */
+
+.inpNCC {width: 130px;}
+
+
